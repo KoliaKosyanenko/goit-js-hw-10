@@ -1,0 +1,55 @@
+.form {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.form > button {
+  width: 360px;
+  height: 40px;
+  margin-top: 24px;
+}
+
+.form > label > input {
+  box-sizing: border-box;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  color: rgb(46, 47, 66);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  padding: 8px 16px;
+}
+
+.form > label {
+  display: grid;
+}
+
+.form > label > input:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+fieldset {
+  width: 360px;
+  margin: 0;
+  height: 40px;
+  height: 64px;
+  margin-top: 16px;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 4px;
+}
+
+fieldset:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+legend {
+  margin-left: 28px;
+}
